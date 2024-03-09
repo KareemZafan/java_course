@@ -9,15 +9,13 @@ public class ValueDigits {
         int value = input.nextInt();
 
         // 456
-        int sum = 0 ;
-
+        int sum = 0;
         sum += value % 10; // 6
         value /= 10;  //45
-        sum += value%10; //11
-        value /=10;
-        sum += value%10; //15
+        sum += value % 10; //11
+        value /= 10;
+        sum += value % 10; //15
 
-        System.out.println("Digit's sum = "+sum);
-
+        System.out.println("Digit's sum = " + sum);
     }
 }
