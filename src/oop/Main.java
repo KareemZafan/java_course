@@ -10,17 +10,12 @@ public class Main {
 
 
         Box y = new Box(60);
-        System.out.println(
-                y
-                        .setLength(100)
-                        .setWidth(20)
-                        .setHeight(200)
-                        .getVolume());
+        System.out.println(y.setLength(100).setWidth(20).setHeight(200).getVolume());
 
 
         System.out.println(y.getLength() + "\t" + y.getWidth() + "\t" + y.getHeight());
 
-        Box thirdBox = new Box(10,20,30);
+        Box thirdBox = new Box(10, 20, 30);
 
         System.out.println(thirdBox.getLength() + "\t" + thirdBox.getWidth() + "\t" + thirdBox.getHeight());
         System.out.println(thirdBox.getVolume());
