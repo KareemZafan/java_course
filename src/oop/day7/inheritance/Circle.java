@@ -27,8 +27,4 @@ public class Circle extends Shape {
     public String getInfo() {
         return String.format("Radius = %.3f \t Area= %.3f \t Perimeter= %.3f", radius, getArea(),getPerimeter());
     }
-
-    public double getParentArea(){
-      return   super.getArea();
-    }
 }

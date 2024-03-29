@@ -1,23 +1,11 @@
 package oop.day7.inheritance;
 
-public  class Shape {
+public  abstract class Shape {
     protected String name;
 
-    public Shape() {
-        name = "";
-    }
+    public abstract double getArea();
 
-    public Shape(String name) {
-        this.name = name;
-    }
-
-    public double getArea(){
-        return 0;
-    }
-
-    public double getPerimeter(){
-        return 0;
-    }
+    public abstract double getPerimeter();
 
     public final String getText(){
         return "NULL";
